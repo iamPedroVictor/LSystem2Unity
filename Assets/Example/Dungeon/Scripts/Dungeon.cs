@@ -23,7 +23,7 @@ namespace LSystem2Unity.Exemple{
 		public float angle = 90;
 		public float distance = 1;
 
-		public LSystem lsystem;
+		public 	LSystem lsystem;
 
 		private GameObject block;
 		private GameObject DungeonGameObject;

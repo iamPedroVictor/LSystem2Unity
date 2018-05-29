@@ -104,7 +104,7 @@ namespace LSystem2Unity.ToolEditor{
 				try {
 					height = heights [index];
 				} catch (ArgumentOutOfRangeException e) {
-					Debug.LogWarning (e.Message);
+						Debug.LogWarning (e.Message);
 				} finally {
 					float[] floats = heights.ToArray ();
 					Array.Resize (ref floats, prop.arraySize);
